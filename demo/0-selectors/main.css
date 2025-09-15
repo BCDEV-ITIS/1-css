@@ -1,0 +1,25 @@
+/*
+Structure d'ne déclaration en CSS
+1. Un séleteur
+2. {
+3. Propriété : valeur; on peut mettre autant de couple propriété et valeur qu'on souhaite
+4. }
+*/
+
+section>article {
+    background-color: red;
+}
+
+/*
+- Un p est par defaut un élément de type block avec display inline, on change son comportement
+- Comportement d'un élément de type block : occupe toute la largeur de la page, l'élément suivant vient se positionner en bas
+- Comportement d'un élément de type inline : occupe l'espace nécessaire qui lui faut, l'élément suivant, si c'est un inline vient se coller à lui
+*/
+p {
+    display: inline;
+}
+
+/* par defaut, span et a sont des éléments de type inline */
+span, a {
+    display: block;
+}
