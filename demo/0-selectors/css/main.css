@@ -16,7 +16,8 @@ section>article {
 - Comportement d'un élément de type inline : occupe l'espace nécessaire qui lui faut, l'élément suivant, si c'est un inline vient se coller à lui
 */
 p {
-    display: inline;
+    display: inline-block;
+    width: 25%;
 }
 
 /* par defaut, span et a sont des éléments de type inline */
