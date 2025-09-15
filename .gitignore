@@ -1,0 +1,5 @@
+img
+!exercices/img
+cours/*
+!cours/*.pdf
+admin
