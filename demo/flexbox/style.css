@@ -1,0 +1,30 @@
+/*
+Méthodo pour Flexbox
+
+1. Sélectionner un parent qui va jouer le rôle de conteneur
+2. Sur le parent (conteneur), appliquer la déclaration(propriété+valeur) display:flex;
+3. Choisir un axe principal à l'aide de la propriété flex-direction
+4. Aligner vos éléments enfants (items) avec la propriété justify-content
+5. Si besoin, aligner les items sur l'axe secondaire avec la propriété align-items
+6. Par defaut, tous les items sont sur une ligne ou une colonne,
+    pour passer les items à ligne ou colonne suivante,
+    il faut utiliser la propriété flex-wrap avec la valeur wrap (flex-wrap:wrap;
+7. D'autres propriétés existent pour faire des traitements plus spécifique cf. la documentation sur FlexBox
+*/
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 450px;
+    background: orange;
+}
+
+li {
+    border: 1px solid black;
+    width: 100px;
+    background-color: aqua;
+    list-style-type: none;
+    text-align: center;
+}
